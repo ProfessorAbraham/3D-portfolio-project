@@ -8,7 +8,7 @@ const FooterSection = () =>{
                 <a href="https://www.instagram.com/_harsh_kr/" className="flex justify-center px-10" ><img src = {instagram} alt = "instagram" className=""/></a>
                 <a href="https://www.linkedin.com/in/harsh-kumar-794ab425a/" className="flex justify-center px-10"><img src = {linkedin} alt = "linkedin" className=""/></a>
                 <a href="https://mail.google.com/mail/u/0/#inbox?compose=new" className="flex justify-center px-10"><img src = {gmail} alt = "gmail" className=""/></a>
-                <a href="https://github.com/Harshkr75?tab=repositories" className="flex justify-center px-10"><img src = {github} alt = "github" className=" flex w-12 h-12 md:w-10 h-10 sm:w-5 h-5"/></a>
+                <a href="https://github.com/Harshkr75?tab=repositories" className="flex justify-center px-10 w-50 h-12"><img src = {github} alt = "github" className=" flex w-12  md:w-8"/></a>
             </div>
             <div className ="flex justify-center items-center sm:px-12 px-4 bg-primary py-2">
             <p>Created by Harsh</p>

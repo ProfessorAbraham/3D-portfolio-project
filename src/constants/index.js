@@ -21,9 +21,12 @@ import {
     mongo,
     todolist,
     notescape,
-    tripguide,
+    portfolio,
     threejs,
-    web3
+    web3,
+    responsive,
+    dynamic,
+    intuitive
   } from "../assets";
   
   export const navLinks = [
@@ -172,29 +175,29 @@ import {
   ];
   
   const testimonials = [
-    {
+    { title:"Responsive",
       testimonial:
-        "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
+        "I specialize in creating responsive websites using Bootstrap, media queries, Tailwind, and other cutting-edge technologies. With a focus on user-centric design, I ensure a seamless experience across diverse devices.",
       name: "Sara Lee",
       designation: "CFO",
       company: "Acme Co",
-      image: "https://randomuser.me/api/portraits/women/4.jpg",
+      image: responsive,
     },
-    {
+    {title:"Dynamic" ,
       testimonial:
-        "I've never met a web developer who truly cares about their clients' success like Rick does.",
+        " I excel at crafting dynamic websites using JavaScript, Node.js, and other backend technologies. With a focus on seamless user experiences and real-time functionalities, I bring a dynamic edge to web development.",
       name: "Chris Brown",
       designation: "COO",
       company: "DEF Corp",
-      image: "https://randomuser.me/api/portraits/men/5.jpg",
+      image: dynamic ,
     },
-    {
+    { title:"Intuitive",
       testimonial:
-        "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
+        "I have a strong preference for easy to use designs that prioritize user experience,I ensure that every design is user-friendly and seamlessly guides users through an engaging and intuitive journey.",
       name: "Lisa Wang",
       designation: "CTO",
       company: "456 Enterprises",
-      image: "https://randomuser.me/api/portraits/women/6.jpg",
+      image: intuitive,
     },
   ];
   
@@ -239,6 +242,27 @@ import {
         },
       ],
       image: notescape,
+      source_code_link: "https://github.com/Harshkr75/noteScape",
+    },
+    {
+      name: "Portfolio Project",
+      description:
+        "Presenting my latest creation, a stunning 3D Animated Portfolio crafted with React.js, Tailwind CSS, and Three.js. This immersive portfolio project showcases the fusion of technology and design, featuring captivating animations powered by React libraries like Framer Motion. Explore a dynamic and visually engaging presentation of my work, seamlessly blending creativity with modern web development.",
+      tags: [
+        {
+          name: "reactJs",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "tailwind css",
+          color: "green-text-gradient",
+        },
+        {
+          name: "threeJs",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: portfolio,
       source_code_link: "https://github.com/Harshkr75/noteScape",
     },
     ,

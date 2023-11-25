@@ -28,12 +28,17 @@ import backendDev from "./company/backend.png";
 
 import todolist from "./todolist.png";
 import notescape from "./notescape.png";
-import tripguide from "./tripguide.png";
+import portfolio from "./portfolio project.png";
 
 import gmail from "./gmail.png";
 import instagram from "./instagram.png";
 import linkedin from "./linkedin.png";
-import web3 from "./company/web.png"
+import web3 from "./company/web.png";
+
+import responsive from "./responsive.png";
+import intuitive from "./intuitive.png";
+import dynamic from "./dynamic.png";
+
 
 export {
   logo,
@@ -63,9 +68,12 @@ export {
   backendDev,
   todolist,
   notescape,
-  tripguide,
+  portfolio,
   instagram,
   gmail,
   linkedin,
-  web3
+  web3,
+  responsive,
+  dynamic,
+  intuitive
 };
